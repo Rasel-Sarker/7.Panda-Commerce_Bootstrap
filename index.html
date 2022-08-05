@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header id="home">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light mb-5">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="">
@@ -23,23 +23,23 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
           <!-- header slider start -->
-        <section class="container rounded header-slider mt-5 p-5">
+        <section class="container rounded header-slider p-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -98,6 +98,7 @@
                 </button>
               </div>
         </section>
+      </header>
           <!-- header slider end -->
           <!-- main section start here -->
         <main>
@@ -133,7 +134,7 @@
             </div>
           </section>
           <!-- shoes section start here -->
-          <section class="container my-5">
+          <section id="shoes" class="container my-5">
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
               <div class="col-md-4 col-sm-12">
@@ -180,7 +181,7 @@
             </div>
           </section>
           <!-- Backpack section start here -->
-          <section class="container my-5">
+          <section id="backpack" class="container my-5">
             <h1>Backpack</h1>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
               <div class="col-md-4 col-sm-12">
@@ -228,9 +229,25 @@
               </div>
             </div>
           </section>
+          <!-- subscribe section satrt here -->
+          <section id="subscribe" class="container bg-common text-center">
+              <div class="subscribe-section p-4 ">
+                <h2>LET'S STAY IN TOUCH</h2>
+                <p>Get updates on sales, specials and more</p>
+                <form class="d-inline-block">
+                  <div class="mb-3">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <button type="submit" class="btn bg-linear px-4 py-2 text-white">Submit</button>
+                </form>
+              </div>
+          </section>
         </main>
+          <!-- footer section start here -->
+          <footer class="container mt-5 text-center">
+            <p><small>All right are reserved by &copy;Rasel Sarker in 2022</small></p>
+          </footer>
           <!-- main section end here -->
-    </header>
 
     <script src="js/bootstrap.min.js"></script>
 </body>

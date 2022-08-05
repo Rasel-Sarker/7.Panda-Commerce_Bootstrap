@@ -13,3 +13,9 @@
 .bg-veryberry{
     background-color: #B53471;
 }
+.bg-common{
+    background-color: #FCEAE8;
+}
+.bg-linear{
+    background-image: linear-gradient(180deg,#FF5096,#FF267B);
+}
